@@ -1,0 +1,118 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*css encabezado*/
+
+header {
+    display: flex;
+    background-color: gray;
+    justify-content: space-evenly;
+    position: relative;
+    height: 115px;
+    padding: 20px;
+    ;
+   }
+
+.banner img{
+height: 400px;
+width: 100%;
+}
+
+#encabezado {
+    display: flex;
+}
+
+.menu{
+    text-decoration: black;
+}
+
+header img {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    size: 300%;
+}
+
+/* cuerpo de pagina*/
+#QuienesSomos{
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align:justify
+}
+#QuienesSomos img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#PorQueElegirnos{
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    text-align:justify;
+}
+
+#PorQueElegirnos img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%; 
+}
+
+#p {
+    height: 300px;
+    width: 300px;
+}
+
+#propuestas {
+    padding-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;  
+}
+
+
+#propuestas img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+/*pie de pagina*/
+
+#piePagina {
+    padding-top: 100px;
+    align-items: center;
+    height: 300px;
+    grid-template-columns: 1fr 2fr 1fr 0.5fr;
+    background-color: gray
+}
+
+#redes {
+    height: 200px;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    align-items: center;
+    background-color: gray;
+}
+
+#redesSociales {
+    display:flexbox;
+    padding-right: 50px;
+}
+
+ion-icon {
+    color: black;
+    font-size: 2rem;
+    align-items: normal;
+}
+
+#mapa{
+    padding-right: 50px;
+}
